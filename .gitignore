@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,flask,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,flask,linux
 
+# Logan
+*_decompressed.txt
+*.bin
+
+
 ### Flask ###
 instance/*
 !instance/.gitignore
