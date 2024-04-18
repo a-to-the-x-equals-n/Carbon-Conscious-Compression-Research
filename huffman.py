@@ -434,7 +434,7 @@ if __name__ == "__main__":
     """
     
     # Define the path to the text file that will be compressed.
-    path = "alice.txt"
+    path = "datasets/alice.txt"
 
     # Create an instance of HuffmanCoding with the specified file path.
     h = HuffmanCoding(path)

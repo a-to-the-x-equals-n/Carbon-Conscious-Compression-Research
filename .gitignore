@@ -4,7 +4,7 @@
 # Logan
 *_decompressed.txt
 *.bin
-
+notes.txt
 
 ### Flask ###
 instance/*
