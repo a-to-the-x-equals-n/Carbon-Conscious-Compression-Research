@@ -28,10 +28,10 @@
     ```
 
 5. The above command will demonstrate a compression and decompression on the `alice.txt` file.
-6. After execution, the program will create an `<filename>.bin` file and `<filename>_decompressed.txt` file.
+6. After execution, the program will create an `<filename>.bin` file and `<filename>_decompressed.txt` file in the `datasets` folder.
 7. You can edit the `path` variable in the **main guard** to sample other files:
     ```python
-    path = "alice.txt"
+    path = "datasets/alice.txt"
     ```
 
 ## Contributors
