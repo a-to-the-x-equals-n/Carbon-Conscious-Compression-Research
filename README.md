@@ -5,7 +5,7 @@
     ```bash
     git clone https://github.com/a-to-the-x-equals-n/Carbon-Conscious-Compression-Research.git
     ```
-2. The repo includes a sample file for testing: `alice.txt` (*the Alice in Wonderland story*).
+2. The repo includes a sample file in the `datasets` folder: `alice.txt` (*the Alice in Wonderland story*).
 3. `huffman.py` has a **main guard** so you can test the class directly.
 
     ```python
