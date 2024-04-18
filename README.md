@@ -12,7 +12,7 @@
     # Main Idiom
     if __name__ == "__main__":
             
-        path = "alice.txt"
+        path = "datasets/alice.txt"
 
         h = HuffmanCoding(path)
 
