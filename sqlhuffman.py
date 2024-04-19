@@ -69,7 +69,7 @@ class HuffmanSql(HuffmanCoding):
         file_size_mb = os.path.getsize(self.path) / (1024 * 1024)
 
         # Get table name
-        self.table = self.path.stem # The stem property returns the file name without the suffix
+        self.table = Path(self.path).stem # The stem property returns the file name without the suffix
         
         try:
             # Determine if the file should be read in chunks
@@ -283,8 +283,7 @@ class HuffmanSql(HuffmanCoding):
 
         Args:
             compressed_col (bytes): The compressed column as a byte array.
-            codes (dict): Huffman codes used for encoding.
-            reverse_mapping (dict): Huffman reverse mappings used for decoding.
+            reverse_map (dict): Huffman reverse mappings used for decoding.
 
         Returns:
             str: The decompressed text.
