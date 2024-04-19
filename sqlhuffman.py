@@ -386,7 +386,7 @@ if __name__ == "__main__":
     h = HuffmanSql(path, url, huff_url)
 
     h.csv_to_table() # Load source file and store as db table
-    h.export_as_sql(db, h.table, user, host, port) # Export as SQL file
+    h.export_as_sql(db, h.table, user, host, port) # Export table as SQL file
     data = h.fetch_all() # Fetch new db table
     binary_data = h.compress(data) # Compress new table
     h.compressed_to_table(binary_data) # Store compressed table in db
