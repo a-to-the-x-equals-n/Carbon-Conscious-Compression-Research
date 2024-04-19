@@ -225,7 +225,7 @@ class HuffmanCoding:
         extra_padding = 8 - len(encoded_text) % 8
 
         # Append zeros to the end of the encoded text to add the necessary padding.
-        for i in range(extra_padding):
+        for _ in range(extra_padding):
             encoded_text += "0"
 
         # Prepare a binary string that represents the padding length, padded to 8 bits.
